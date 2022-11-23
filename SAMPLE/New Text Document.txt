@@ -1,0 +1,35 @@
+Simple Modular  Project is ready for further demonstration and build. 
+
+Step 1. create at least two directories , 
+
+Step 2. npm init in each directory to be imported
+  - each module should be labeled in the package.json file with the proper type 
+or with the .mjs  extension as opposed to just   ".js" 
+- the preferred method is by each directories package module
+
+each directory should have a seperate npm init  
+
+in each , under the description of the package.json file , 
+for modules only , you may add a 
+"type":"module"   as is , to make the js file modular.  
+
+Step 3. Write import and export functions properly. 
+
+Step 4 . use npm link on each page to add them into npm link. 
+
+then , you may use the command , inside the app or main import directory , out of the latter , 
+and run in the terminal
+
+ npm link $DIRNAME?$ $DIRNAME?$      
+
+ where $DIRNAME?$ is used for the directory name with or without the extension. 
+
+Step 3. , you should now see your project INSIDE the node modules folder. 
+this is now a confirmation that the files are linked. 
+and , as long as using a es6 module or common js module , 
+you may import and export both values and functions in code . 
+
+
+See , this link here  for a great walkthrough - - -  https://www.youtube.com/watch?v=2qizpBu5QCQ
+ 
+
